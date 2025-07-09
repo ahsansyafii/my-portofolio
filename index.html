@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>&lt;/&gt; My Portfolio</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="typing-text">Portofolio - Ahsan Syafi'i Rusdin</span>
+                </h1>
+                <p class="hero-subtitle">Passionate about coding, dan teknologi terbaru</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Lihat Projects</a>
+                    <a href="https://wa.me/6281247641015" target="_blank"  class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-animation">
+                    <div class="code-line"></div>
+                    <div class="code-line"></div>
+                    <div class="code-line"></div>
+                    <div class="code-line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Saya adalah mahasiswa Teknik Informatika yang passionate dalam dunia programming dan teknologi. Saya senang mempelajari hal-hal baru dan selalu berusaha mengembangkan skill dalam berbagai bahasa pemrograman.</p>
+                    <p>Fokus saya saat ini adalah pada web development. Saya percaya bahwa teknologi dapat memberikan solusi untuk berbagai masalah di kehidupan sehari-hari.</p>
+
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="images/profile.jpg" alt="Foto Profil Ahsan Syafii" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                         <div class="skill-item">
+                            <i class="fa-brands fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-brands fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt""></i>
+                            <span>Talwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>XAMPP</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>VSCode</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-brands fa-ubuntu"></i>
+                            <span>Ubuntu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/logo.png" class="project-img" >
+                    </div>
+                    <div class="project-content">
+                        <h3>Campus Website</h3>
+                        <p>Membuat tampilan web Kampus/Sekolah sederhana
+                            yang di dalamnya sudah ada info sekolah, fasilitas, letak, dan kontak jika ingin daftar.  
+                        </p>
+                        <div class="project-tech">
+                            <span>html</span>
+                            <span>css</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://ahsansyafii.github.io/my-campus/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/logo3.png" class="project-img" >
+                    </div>
+                    <div class="project-content">
+                        <h3>Order Food Website</h3>
+                        <p>Membuat Websitew website order food (roti) yang di dalamnya sudah ada fitur ke keranjang orderan, favorite, menu pencarian, Gallery dan lainnya.</p>
+                        <div class="project-tech">
+                            <span>html</span>
+                            <span>css</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://ahsansyafii.github.io/bread-order/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/logoku.png" class="project-img" >
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Website (Shirt Shop) </h3>
+                        <p>Membuat e-commerce website sederhana dengan pembayaran melaluio chat dengan admin di WhatsApp.</p>
+                        <div class="project-tech">
+                            <span>html</span>
+                            <span>talwind css</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://ahsansyafii.github.io/ecommerce/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/logosgo.png" class="project-img" >
+                    </div>
+                    <div class="project-content">
+                        <h3>PT.Square Gate One</h3>
+                        <p>Sistem Analisis Malware<br>
+                         Analisis statis dasar menggunakan beberapa tools FlareVM.
+                        </p>
+                        <div class="project-tech">
+                            <span>FLOSS</span>
+                            <span>PEView</span>
+                            <span>PEiD</span>
+                            <span>VirusTotal</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/logoctf.png" class="project-img" >
+                    </div>
+                    <div class="project-content">
+                        <h3>Menemukan kode CTF</h3>
+                        <p>President University<br>
+                        •	Berhasil berpartisipasi dalam tantangan keamanan siber CTF <br>
+                        •	Menunjukkan keterampilan pemecahan masalah dalam kriptografi,dan eksploitasi web.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/logo-white.png" class="project-img" >
+                    </div>
+                    <div class="project-content">
+                        <h3>Travel Website</h3>
+                         <p>Membuat tampilan website Travel.
+                        <div class="project-tech">
+                            <span>html</span>
+                            <span>css</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://ahsansyafii.github.io/go-travel/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/logocnm.png" class="project-img" >
+                    </div>
+                    <div class="project-content">
+                        <h3>Cinema Booking</h3>
+                         <p>Membuat website cinema booking, dikembangan oleh AI.</p>
+                        <div class="project-tech">
+                            <span>html</span>
+                            <span>JavaScript</span>
+                            <span>json</span>
+                            <span>css</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://heartfelt-crostata-68c428.netlify.app/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/logo4.png" class="project-img" >
+                    </div>
+                    <div class="project-content">
+                        <h3>Todo List Wesite</h3>
+                        <p>Membuat todo list website sederhana dan simpel.
+                        </p>
+                        <div class="project-tech">
+                            <span>html</span>
+                            <span>css</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://ahsansyafii.github.io/todo-list/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Mari Berkolaborasi!</h3>
+                    <p>Saya selalu terbuka untuk diskusi tentang teknologi, project collaboration, atau opportunity baru. Jangan ragu untuk menghubungi saya!</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>ahsansyafii121@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+62 812-4764-1015</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Cikarang, Jawa Barat</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/ahsansyafii" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://instagram.com.com/ahsan_r_23" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/6281247641015" target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Pesan Anda" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Portofolio ini menggunakan HTML, CSS, dan JS <i class="fas fa-heart"></i></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- EmailJS Script - TAMBAHKAN SEBELUM script.js -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init("uJR4nu_AnThWYK-lm"); // GANTI dengan Public Key Anda
+    })();
+</script>
+<script src="script.js"></script>
+</body>
+</body>
+</html>
